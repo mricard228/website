@@ -1,0 +1,90 @@
+
+/* Background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.background {
+  background: url('https://www.transparenttextures.com/patterns/bright-squares.png'),
+              #f3b42e;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center container */
+.center-box {
+  text-align: center;
+}
+
+/* Mock browser window */
+.browser-box {
+  background: white;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 0px #00000066;
+  display: inline-block;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.window-bar {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.browser-box h1 {
+  margin: 30px 0 5px 0;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.subheading {
+  margin: 0;
+  font-style: italic;
+  color: #444;
+}
+
+/* Buttons layout */
+.button-grid-2x2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 40px auto 0;
+  gap: 40px;
+}
+
+/* Button styling */
+.nav-button {
+  text-decoration: none;
+  color: #000;
+  background: white;
+  border: 2px solid #000;
+  padding: 22px 48px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #222;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  box-shadow: 2px 2px 0px #000;
+  transform: translate(2px, 2px);
+}
